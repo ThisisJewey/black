@@ -12,7 +12,7 @@ body {
     position: relative;
     background-image: url("https://black-revolution.vercel.app/images/hero-bg.webp");
     background-repeat: no-repeat;
-    background-position: 0px 25%;
+    background-position: 0px 35%;
     background-size: cover;
 }
 
@@ -74,15 +74,24 @@ body {
     font-weight: 300;
 }
 .part2 {
-background-color: #04AA6D; /* Green */
-border: none;
-color: white;
-padding: 20px;
-text-align: flex;
-text-decoration: none;
-display: flex;
-font-size: 16px;
-margin: 4px 2px;
-cursor: pointer;
+    border-radius: 25px;
+    background:black;
+    padding: 20px; 
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
 }
-.button4 {border-radius: px;}
+.button3 {
+    border-radius: 25px;
+    background:black;
+    padding: 20px; 
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    bottom: 75px;
+    right: 0;
+    text-align: center;
+}
